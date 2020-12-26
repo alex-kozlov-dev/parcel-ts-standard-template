@@ -1,0 +1,39 @@
+{
+  "name": "parcel-ts-standard-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-kozlov-dev/parcel-ts-standard-template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-kozlov-dev/parcel-ts-standard-template/issues"
+  },
+  "homepage": "https://github.com/alex-kozlov-dev/parcel-ts-standard-template#readme",
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "typescript": "^4.1.3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.11.0",
+    "@typescript-eslint/parser": "^4.11.0",
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-config-prettier-standard": "^3.0.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "prettier": "2.2.1",
+    "prettier-config-standard": "^1.0.1"
+  }
+}
